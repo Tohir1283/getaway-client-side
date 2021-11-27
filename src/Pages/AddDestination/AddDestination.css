@@ -1,0 +1,45 @@
+.addDestination {
+  max-width: 590px;
+  margin: 3rem auto;
+  padding: 2rem 4rem;
+  background-color: yellow;
+  box-shadow: 5px 12px 16px black;
+}
+
+.addDestination form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+textarea {
+  margin: 1rem 0;
+  padding: 0.8rem;
+
+  outline: none;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  box-shadow: 6px 8px 10px darkslategrey;
+}
+
+form fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset input {
+  margin: 1rem 0;
+  padding: 0.8rem;
+
+  outline: none;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  box-shadow: 6px 8px 10px darkslategrey;
+}
+
+form textarea {
+  line-height: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 650px) {
+}

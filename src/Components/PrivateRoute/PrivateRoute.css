@@ -1,0 +1,10 @@
+.isLoading {
+  margin-top: 10%;
+  margin-bottom: 100vh;
+}
+
+@media only screen and (min-width: 388px) and (max-width: 650px) {
+  .isLoading {
+    margin-bottom: 180px;
+  }
+}

@@ -1,0 +1,28 @@
+.searchContainer {
+  width: 100%;
+
+  /* padding: 1rem 5rem; */
+
+  background-color: black;
+  display: none;
+}
+
+.searchContainer > input {
+  width: 100%;
+
+  /* padding: 1rem 3rem; */
+
+  background-color: black;
+  color: whitesmoke;
+
+  border: none;
+  outline: none;
+}
+
+nav {
+  width: 100%;
+}
+
+.image-container {
+  width: 104px;
+}

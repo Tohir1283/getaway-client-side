@@ -1,0 +1,37 @@
+.carousel-container {
+  width: 360px;
+  padding: 10px;
+  background-color: #f6f6f6;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.carousel-image {
+  border: 1px solid black;
+  border-bottom: none;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.carousel-details {
+  background-color: yellow;
+  border: 1px solid gray;
+  border-top: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  width: 100%;
+  transition: all 1s;
+}
+
+.inner:hover img {
+  transform: scale(1.1);
+}

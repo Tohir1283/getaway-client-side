@@ -1,0 +1,34 @@
+.logInPage {
+  background-image: url("https://getaway.qodeinteractive.com/wp-content/uploads/2017/09/parallax-img-3.jpg");
+  background-position: center;
+  background-size: cover;
+
+  padding: 3rem 0;
+}
+
+.logInSection {
+  max-width: 360px;
+
+  margin-left: 15%;
+  padding: 2rem 2rem;
+
+  border: 1px solid yellow;
+  box-shadow: 6px 6px 24px black;
+}
+
+.logInSection form {
+  display: flex;
+  flex-direction: column;
+}
+
+.logInSection input {
+  border: none;
+  padding: 1rem 1.5rem;
+
+  box-shadow: 6px 8px 12px darkslategrey;
+}
+@media screen and (min-width: 388px) and (max-width: 650px) {
+  .logInSection {
+    margin-left: 5%;
+  }
+}

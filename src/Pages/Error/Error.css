@@ -1,0 +1,43 @@
+.errorPage {
+  height: 100vh;
+  background-image: url("https://getaway.qodeinteractive.com/wp-content/uploads/2017/08/error-page-background-img-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.errorInfo {
+  min-width: 320px;
+  max-width: 650px;
+  text-align: start;
+
+  padding-top: 10%;
+  padding-left: 15%;
+}
+
+.errorInfo h1 {
+  color: yellow;
+  font-size: 12rem;
+}
+
+.errorInfo h3 {
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-top: none;
+}
+
+.errorInfo button {
+  background-color: yellow;
+  padding: 0.5rem 2.5rem;
+  margin: 1rem 0;
+
+  font-weight: bold;
+
+  border: 1px solid yellow;
+}
+
+@media screen and (min-width: 388px) and (max-width: 650px) {
+  .errorInfo {
+    padding-left: 6%;
+  }
+}

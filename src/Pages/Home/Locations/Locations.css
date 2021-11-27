@@ -1,0 +1,18 @@
+.locations-image {
+  padding: 0px;
+}
+.location-details {
+  width: 100%;
+  text-align: left;
+
+  box-sizing: border-box;
+  padding: 4.25rem 2rem;
+
+  border: 10px solid yellow;
+}
+
+@media screen and (min-width: 388px) and (max-width: 650px) {
+  .locations-image {
+    display: none;
+  }
+}

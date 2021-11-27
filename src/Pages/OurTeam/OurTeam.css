@@ -1,0 +1,77 @@
+.teamcard {
+  min-width: 320px;
+  max-width: 370px;
+  min-height: 550px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease-in-out;
+}
+
+.teamcard:hover {
+  transform: translateY(20px);
+}
+
+.teamcard > .cardBody {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+.teamcard:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 176, 155, 0.5),
+    rgb(22, 70, 116)
+  );
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+}
+
+.teamcard:hover:before {
+  opacity: 0.5;
+}
+
+.teamcard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.teamcard > .cardBody {
+  position: relative;
+  margin-top: 90%;
+  z-index: 3;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+
+  font-weight: 900;
+  text-align: start;
+  padding-left: 3rem;
+}
+
+.teamcard:hover .cardBody {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.teamcard .cardBody h3,
+h5 {
+  margin: 0;
+  font-weight: 900;
+  color: antiquewhite;
+}
